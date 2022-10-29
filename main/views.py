@@ -4,8 +4,8 @@ from django.contrib.auth import login
 from django.contrib import messages
 from django.views.generic import TemplateView
 
-class HomeView(TemplateView):
-    template_name = 'main/index.html'
+def homepage(request):
+	return render(request=request, template_name='main/index.html')
 
 def register_request(request):
 	if request.method == "POST":
