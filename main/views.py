@@ -10,6 +10,9 @@ from django.contrib.auth import login, authenticate, logout
 def homepage(request):
 	return render(request=request, template_name='main/index.html')
 
+def sucesso(request):
+	return render(request=request, template_name='main/sucesso.html')
+
 def register_request(request):
 	if request.method == "POST":
 		form = NewUserForm(request.POST)
