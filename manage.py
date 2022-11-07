@@ -3,6 +3,7 @@
 import os
 import sys
 
+#source venv/bin/activate
 
 def main():
     """Run administrative tasks."""
