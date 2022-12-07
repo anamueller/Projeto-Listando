@@ -3,7 +3,8 @@
 import os
 import sys
 
-#source venv/bin/activate
+
+
 
 def main():
     """Run administrative tasks."""
@@ -19,5 +20,6 @@ def main():
     execute_from_command_line(sys.argv)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
+
